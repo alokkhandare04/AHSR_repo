@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/admin1/shopmate_bot_ws/install/shopmate_bot_description/lib/python3.12/site-packages",
+        "/home/admin1/acc_robotics_ws/install/acc_waypoint_navigation/lib/python3.12/site-packages",
+        "/home/admin1/ros2_cpp_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/admin1/shopmate_bot_ws/install/shopmate_bot_description/lib/python3.12/site-packages",
+        "/home/admin1/acc_robotics_ws/install/acc_waypoint_navigation/lib/python3.12/site-packages",
+        "/home/admin1/ros2_cpp_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
