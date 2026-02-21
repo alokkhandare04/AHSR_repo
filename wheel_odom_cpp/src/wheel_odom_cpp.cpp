@@ -21,7 +21,7 @@ public:
     cmd_sub_ = create_subscription<geometry_msgs::msg::Twist>(
       "/cmd_vel", 10, std::bind(&WheelOdomNode::cmdCallback, this, std::placeholders::_1));
 
-    wheel_radius_ = 0.0575;
+    wheel_radius_ = 0.05;
     wheel_separation_ = 0.45;
     ticks_per_rev_ = 683.0;
 

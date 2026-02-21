@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 // ---------------- LEFT MOTOR ----------------
 #define L_PWM 5
 #define L_DIR 4
@@ -17,8 +15,8 @@ volatile long leftTicks = 0;
 volatile long rightTicks = 0;
 
 const int ticks_per_rev = 683;
-const float wheel_diameter = 0.115;
-const float wheel_circumference = 3.1416 * wheel_diameter;
+const float wheel_diameter = 0.10;
+const float wheel_circumference = 3.14 * wheel_diameter;
 
 // ---------------- SETUP ----------------
 void setup() {

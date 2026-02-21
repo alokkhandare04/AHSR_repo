@@ -19,7 +19,7 @@ diff_drive_controller:
     right_wheel_names: ["base_right_wheel_joint"]
     
     # This is based on the X-axis distance in your joint origins (0.26 - (-0.26))
-    wheel_separation: 0.52
+    wheel_separation: 0.45
     
     # IMPORTANT: You must measure your wheel's radius and set this value!
     wheel_radius: 0.05
